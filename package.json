@@ -1,0 +1,30 @@
+{
+  "name": "sgcf-api",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Sz Sampaio",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cors": "~2.8.1",
+    "express": "~4.14.0",
+    "helmet": "~2.3.0",
+    "jsonwebtoken": "~7.1.9",
+    "mongoose": "~4.6.3",
+    "morgan": "~1.7.0"   ,
+    "express-validator": "~2.21.0",
+    "mongoose-paginate": "~5.0.3",
+    "nodemailer": "~2.6.4",
+    "dotenv": "~2.0.0",
+    "async": "~2.1.2",
+    "chalk": "~1.1.3"
+  }
+}
